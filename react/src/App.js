@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../siimple-3.0.0/dist/siimple.min.css';
 
 class App extends Component {
-    state = { loading: false };
 
     componentDidMount() {
         // 测试 devServer 的代理功能
@@ -14,15 +12,13 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h2>YOLOOOOOOOOOO</h2>
+            <div className="">
+                <div className="siimple-jumbotron siimple-jumbotron--yellow siimple-jumbotron--fluid">
+                    <div className="siimple-jumbotron-title">Right Price Game</div>
+                    <div className="siimple-jumbotron-subtitle">Find the right price</div>
+                    <div className="siimple-jumbotron-detail">And compete with your friends</div>
+                    <div className="siimple-btn siimple-btn--yellow">PLAY NOW</div>
                 </div>
-                <p>{ this.state.loading.toString() }</p>
-                <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
             </div>
         );
     }
