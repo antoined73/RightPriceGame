@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <div className="">
                 <div className="siimple-jumbotron siimple-jumbotron--yellow siimple-jumbotron--fluid">
-                    <div className="siimple-jumbotron-title">Right Price Game</div>
+                    <div className="siimple-jumbotron-title">Right Price Game !!</div>
                     <div className="siimple-jumbotron-subtitle">Find the right price</div>
                     <div className="siimple-jumbotron-detail">And compete with your friends</div>
                     <div className="siimple-btn siimple-btn--yellow">PLAY NOW</div>
