@@ -15,15 +15,10 @@ Dev reminder
 ### Start React project
 [**Source**](https://www.npmjs.com/package/start-react-app)
 
-#### install
-`npm install -g start-react-app`
-
-#### usage
-`start-react-app react`
-
-#### develop
-`cd react
-npm start`
+1. Open project in webstorm
+2.`cd react`
+3.`npm install`
+4.`npm start`
 
 #### build
 `npm run build`
