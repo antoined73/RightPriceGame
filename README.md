@@ -10,25 +10,25 @@ Items shown in the game will be requested on external sites dynamically -> Endle
 
 Dev reminder :
 
-###Start React project
+### Start React project
 source : https://www.npmjs.com/package/start-react-app
 
-####install
-npm install -g start-react-app
+#### install
+`npm install -g start-react-app`
 
-####usage
-start-react-app my-first-app
+#### usage
+`start-react-app my-first-app`
 
-####develop
-cd my-first-app
-npm start
+#### develop
+`cd my-first-app
+npm start`
 
-####build
-npm run build
+#### build
+`npm run build`
 
 ---
 
-##Back-end part :
+## Back-end part :
 
 
 ---
